@@ -15,6 +15,7 @@ This project explores the concept of e-waste. People usually don't think much of
 The physical form that the project embodies is the trashcan. Due to the constraints of the on-campus 3D printers, my trashcan print ended up of this size and color, but it symbolizes a normal, large trashcan that dumpster trucks pick up on the side of the street, and is capable of opening and closing similarly to those types of trashcans.
 
 **Finished Enclosure:**
+includes mini smartphone to throw away
 
 ![Finished Enclosure](can_phone.jpg)
 
@@ -75,7 +76,7 @@ digitalWrite(ledPin, LOW);}
 }
 ```
 
-but also link to your project's full code in this repository:  [magnetsensor.ino](magnetsensor.ino)
+link to project's full code in this repository:  [magnetsensor.ino](magnetsensor.ino)
 
 **Wiring Diagram**
 
