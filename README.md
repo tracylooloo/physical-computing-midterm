@@ -12,20 +12,19 @@ This project explores the concept of e-waste. People usually don't think much of
 
 ### Form
 
-/// Your project should be embodied in a ***physical form*** that reflects, embodies, and/or amplifies those your project's main concepts and ideas.
-Explain your design choices here and include images that document your project's material embodiment. ///
+The physical form that the project embodies is the trashcan. Due to the constraints of the on-campus 3D printers, my trashcan print ended up of this size and color, but it symbolizes a normal, large trashcan that dumpster trucks pick up on the side of the street, and is capable of opening and closing similarly to those types of trashcans.
 
 **Finished Enclosure:**
 
-![Finished Enclosure](finished_enclosure.jpg)
+![Finished Enclosure](can_phone.jpg)
 
 **Electronics Exposed:**
 
-![Enclosure with electronics exposed](exposed_enclosure.jpg)
+![Enclosure with electronics exposed](circuit.jpg)
 
 ### Technical Details
 //   
-Here you should give an overview of the technical operation of your device, including:
+List of Hardware used: 
 * A wiring diagram
 * list of hardware used
 * Explanation of your
@@ -36,10 +35,45 @@ Here you should give an overview of the technical operation of your device, incl
 You can include code snippets here:
 
 ```
-Particle.subscribe("Execute", messageParse, MY_DEVICES);
+String lightMode;
+int ledPin = 5;
+int ledPinb = 7;// choose the pin for the LED
+int switchPin = 3;   // choose the input pin (for a pushbutton)
+int val = 0;     // variable for reading the pin status
+
+void setup() {
+  pinMode(ledPin, OUTPUT);  // declare LED as output
+  pinMode(switchPin, INPUT);
+  digitalWrite(switchPin, HIGH);
+  Particle.subscribe("patricia_tracy_pmt15_tl177", blinkLight);
+}
+
+void blinkLight(const char *event, const char *data) {
+      lightMode = data;
+      pinMode(ledPinb, OUTPUT);
+      if(lightMode == "yes"){
+digitalWrite(ledPinb, HIGH);
+delay(1000);                  // waits for a second
+  digitalWrite(ledPinb, LOW);
+}
+
+else{
+digitalWrite(ledPinb, LOW);}
+}
+
+void loop(){
+  if(digitalRead(switchPin) == HIGH){
+      digitalWrite(ledPin, HIGH);
+      Particle.publish("patricia_tracy_pmt15_tl177_b", "cloud");
+      delay(2000);
+}
+
+else{
+digitalWrite(ledPin, LOW);}
+}
 ```
 
-but also link to your project's full code in this repository:  [photon.ino](photon.ino)
+but also link to your project's full code in this repository:  [photon.ino](magnetsensor.ino)
 
 **Wiring Diagram**
 
