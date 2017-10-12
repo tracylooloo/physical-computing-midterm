@@ -81,3 +81,4 @@ link to project's full code in this repository:  [magnetsensor.ino](magnetsensor
 **Wiring Diagram**
 
 ![Wiring Diagram](circuit_schematic.PNG)
+Arduino Uno shown in place of Photon Redboard. Also note that a magnetic sensor was not available in the circuit drawing application but in the prototype its two ends were placed a c3 and c5.
