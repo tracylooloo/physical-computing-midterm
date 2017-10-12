@@ -8,7 +8,7 @@ Date: 10/13/2017
 
 ### Conceptual Description
 
-This project explores the concept of e-waste. People usually don't think much of their electronic waste because nowadays it seems like a normal part of life and tossing things in a trashcan is a small motion. However, the there are short and long term amplifications on the environment across more places than people think about. The short term effect that everyone sees is the pile of trash or the annoyance caused by the space that the waste takes up. The long term effect is in the landfills, the labor that goes into dealing with the trash, and the chemical, air, water, and soil pollution this creates. The "buddy photon" represents the landfills, labors, and pollution. More specifically the buddy photon represents economically underpriveleged areas that are exposed to these landfill effects. Eventually when these effects do come back to the original, priveleged areas of the area, but in a more intense and less delayed fasion. 
+This project explores the concept of e-waste. People usually don't think much of their electronic waste because nowadays it seems like a normal part of life and tossing things in a trashcan is a small motion. However, the there are short and long term amplifications on the environment across more places than people think about. The short term effect that everyone sees is the pile of trash or the annoyance caused by the space that the waste takes up. The long term effect is in the landfills, the labor that goes into dealing with the trash, and the chemical, air, water, and soil pollution this creates. The "buddy photon" represents the landfills, labors, and pollution. More specifically the buddy photon represents economically underpriveleged areas that are exposed to these landfill effects. Eventually when these effects do come back to the original, priveleged areas of the nation, but in a more intense and less delayed fashion. 
 
 ### Form
 
@@ -25,14 +25,15 @@ The physical form that the project embodies is the trashcan. Due to the constrai
 ### Technical Details
 //   
 List of Hardware used: 
-* A wiring diagram
-* list of hardware used
-* Explanation of your
-* Link to code   
-
+* ABS Plastic (3d print)
+* Magnetic reed sensors
+* Leds
+* resistors
+* wires
 //
 
-You can include code snippets here:
+Explanation of Code:
+
 
 ```
 String lightMode;
