@@ -4,12 +4,11 @@ Name:  Tracy Lu
 
 Date: 10/13/2017
 
-## Project: "Brand Name" or Device Name
+## Project: E-waste Impact Awareness
 
 ### Conceptual Description
 
-/// Replace with a description of the ***critical / conceptual dimensions of your project***, with specific reference to the key issues it engages.  These should intersect with the issues that have been explored in the readings and discussions during the first half of class:  eWaste, data security/ownership in relation to corporate cloud infrastructures; critical making; surveillance and privacy, etc. ** *How does your project engage with these issues beyond mere instrumentality?* ** ///
-This project explores the concept of e-waste. People normally don't think much of their electronic waste because nowadays it seems like a normal part of life and is a small motion to toss in a trashcan. However, the there is short and long term amplification.
+This project explores the concept of e-waste. People usually don't think much of their electronic waste because nowadays it seems like a normal part of life and tossing things in a trashcan is a small motion. However, the there are short and long term amplifications on the environment across more places than people think about. The short term effect that everyone sees is the pile of trash or the annoyance caused by the space that the waste takes up. The long term effect is in the landfills, the labor that goes into dealing with the trash, and the chemical, air, water, and soil pollution this creates. The "buddy photon" represents the landfills, labors, and pollution. More specifically the buddy photon represents economically underpriveleged areas that are exposed to these landfill effects. Eventually when these effects do come back to the original, priveleged areas of the area, but in a more intense and less delayed fasion. 
 
 ### Form
 
