@@ -33,6 +33,7 @@ List of Hardware used:
 //
 
 Explanation of Code:
+The 
 
 
 ```
@@ -78,4 +79,4 @@ but also link to your project's full code in this repository:  [photon.ino](magn
 
 **Wiring Diagram**
 
-![Wiring Diagram](WiringDiagram.png)
+![Wiring Diagram](circuit_schematic.PNG)
