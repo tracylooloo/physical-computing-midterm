@@ -1,14 +1,15 @@
 # Midterm IoT Project
 
-Name:  
+Name:  Tracy Lu 
 
-Date:
+Date: 10/13/2017
 
 ## Project: "Brand Name" or Device Name
 
 ### Conceptual Description
 
 /// Replace with a description of the ***critical / conceptual dimensions of your project***, with specific reference to the key issues it engages.  These should intersect with the issues that have been explored in the readings and discussions during the first half of class:  eWaste, data security/ownership in relation to corporate cloud infrastructures; critical making; surveillance and privacy, etc. ** *How does your project engage with these issues beyond mere instrumentality?* ** ///
+This project explores the concept of e-waste. People normally don't think much of their electronic waste because nowadays it seems like a normal part of life and is a small motion to toss in a trashcan. However, the there is short and long term amplification.
 
 ### Form
 
