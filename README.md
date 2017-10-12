@@ -23,17 +23,17 @@ The physical form that the project embodies is the trashcan. Due to the constrai
 ![Enclosure with electronics exposed](circuit.jpg)
 
 ### Technical Details
-//   
+
 List of Hardware used: 
 * ABS Plastic (3d print)
 * Magnetic reed sensors
 * Leds
 * resistors
 * wires
-//
+
 
 Explanation of Code:
-The 
+The red LED lights up when trashcan is opened (magnetic sensor is separated) and buddy photon's "pollution cloud" is lit up via loop method and particle.publish. The circuit is also subscribed to the buddy photon and light's up in response to button pressing on the other circuit.  
 
 
 ```
@@ -75,7 +75,7 @@ digitalWrite(ledPin, LOW);}
 }
 ```
 
-but also link to your project's full code in this repository:  [photon.ino](magnetsensor.ino)
+but also link to your project's full code in this repository:  [magnetsensor.ino](magnetsensor.ino)
 
 **Wiring Diagram**
 
